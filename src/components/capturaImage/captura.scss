@@ -1,0 +1,35 @@
+.camera {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.camera .imageCamera {
+  rotate: 90deg;
+  max-width: 350px;
+}
+.camera .click {
+  display: flex;
+  width: 200px;
+  gap: 20px;
+  position: absolute;
+  bottom: -20px;
+  justify-content: space-between;
+}
+
+.camera button {
+  display: flex;
+  align-items: center;
+  background: #000;
+  font-size: 12pt;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+@media (max-width: 500px) {
+}

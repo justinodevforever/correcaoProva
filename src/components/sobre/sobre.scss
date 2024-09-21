@@ -1,0 +1,16 @@
+.sobre {
+  display: flex;
+  margin: auto;
+  width: 500px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.sobre p {
+  text-align: justify;
+}
+.sobre span {
+  font-style: italic;
+}
