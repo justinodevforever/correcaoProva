@@ -22,7 +22,7 @@ function Home() {
   async function extrairTextoImage(imageTensor) {
     return new Promise((resolve, reject) => {
       return Tesseract.recognize(imageTensor, "por", {
-        langPath: "/tessdata",
+        langPath: "http://correcao-prova.vercel.app/tessdata/",
         logger: (m) => console.log(m),
       })
         .then(({ data: { text } }) => {
